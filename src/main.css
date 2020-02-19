@@ -19,6 +19,7 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin: 1em;
+  touch-action: manipulation; /* disables zooming in on button press on mobile */
 }
 
 @media (max-width: 720px) {
