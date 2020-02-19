@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  background: #202020;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  overflow: auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 1em;
+}
+
+@media (max-width: 720px) {
+  canvas {
+    width: 95vw;
+  }
+}
