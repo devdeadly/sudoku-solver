@@ -131,6 +131,7 @@ const downloadButton = document.querySelector('#download');
 
 generateButton.addEventListener('click', async () => {
   await generate();
+  solveButton.classList.remove('is-loading');
 });
 
 solveButton.addEventListener('click', async () => {
